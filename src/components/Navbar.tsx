@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, TrendingUp } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,11 +30,11 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-primary flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-            <span className="text-primary-foreground font-heading font-bold text-lg">F</span>
+        <a href="#" className="flex items-center gap-2 group">
+          <div className="w-9 h-9 rounded-lg bg-gradient-primary flex items-center justify-center transition-transform duration-300 group-hover:scale-110 shadow-lg shadow-primary/20">
+            <TrendingUp className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="font-heading font-bold text-xl text-foreground">Finmate</span>
+          <span className="font-heading font-bold text-xl text-foreground tracking-tight">Finmate</span>
         </a>
 
         {/* Desktop Navigation */}
