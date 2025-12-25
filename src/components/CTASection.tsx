@@ -22,10 +22,12 @@ const CTASection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="hero" size="xl" className="group">
-              <Calendar className="mr-2 w-5 h-5" />
-              Book a Call
-              <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+            <Button variant="hero" size="xl" className="group" asChild>
+              <a href="https://calendly.com/farooqifaraz7/30min" target="_blank" rel="noopener noreferrer">
+                <Calendar className="mr-2 w-5 h-5" />
+                Book a Call
+                <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+              </a>
             </Button>
             <Button variant="hero-outline" size="xl">
               Start a Project

@@ -71,9 +71,11 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up-delayed-2">
-            <Button variant="hero" size="xl" className="group">
-              Book a Demo
-              <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+            <Button variant="hero" size="xl" className="group" asChild>
+              <a href="https://calendly.com/farooqifaraz7/30min" target="_blank" rel="noopener noreferrer">
+                Book a Demo
+                <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+              </a>
             </Button>
             <Button variant="hero-outline" size="xl" className="group">
               <Play className="mr-2 w-4 h-4" />

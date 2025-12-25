@@ -54,8 +54,10 @@ const Navbar = () => {
           <Button variant="ghost" size="sm">
             Log In
           </Button>
-          <Button variant="hero" size="sm">
-            Book a Demo
+          <Button variant="hero" size="sm" asChild>
+            <a href="https://calendly.com/farooqifaraz7/30min" target="_blank" rel="noopener noreferrer">
+              Book a Demo
+            </a>
           </Button>
         </div>
 
@@ -86,8 +88,10 @@ const Navbar = () => {
               <Button variant="ghost" size="sm">
                 Log In
               </Button>
-              <Button variant="hero" size="sm">
-                Book a Demo
+              <Button variant="hero" size="sm" asChild>
+                <a href="https://calendly.com/farooqifaraz7/30min" target="_blank" rel="noopener noreferrer">
+                  Book a Demo
+                </a>
               </Button>
             </div>
           </div>
