@@ -62,12 +62,12 @@ const HeroSection = () => {
           </div>
           
           <h1 className="font-heading text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in-up-delayed text-balance">
-            Custom Financial Dashboards & 
-            <span className="gradient-text"> AI Systems</span> for Modern Businesses
+            Stop Managing Finance in Excel.
+            <span className="gradient-text"> Start Scaling with Systems.</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up-delayed-2 text-balance">
-            We build secure, scalable web solutions that automate transactions, commissions, and internal operations — replacing spreadsheets with real-time intelligence.
+            We replace manual reporting with automated dashboards that save hours, reduce errors, and unlock real-time insights.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up-delayed-2">
@@ -84,8 +84,8 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mt-20 pt-10 border-t border-border/50">
             {[
-              { value: "500+", label: "Active Clients" },
-              { value: "$2B+", label: "Transactions Processed" },
+              { value: "10+", label: "Active Clients" },
+              { value: "10M+", label: "Transactions Processed" },
               { value: "99.9%", label: "Uptime Guarantee" },
               { value: "24/7", label: "Support Available" },
             ].map((stat, i) => (
