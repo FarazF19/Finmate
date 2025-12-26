@@ -34,10 +34,17 @@ const ShowcaseSection = () => {
               ))}
             </div>
 
-            <Button variant="hero" size="lg" className="group">
-              View Case Study
-              <ArrowUpRight className="ml-2 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </Button>
+            <div className="space-y-2">
+              <Button variant="hero" size="lg" className="group" asChild>
+                <a href="https://transactions.5tel.co.uk/" target="_blank" rel="noopener noreferrer">
+                  View a Real Client Solution
+                  <ArrowUpRight className="ml-2 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                </a>
+              </Button>
+              <p className="text-sm text-muted-foreground">
+                Built for a card payment provider managing thousands of monthly transactions
+              </p>
+            </div>
           </div>
 
           {/* Dashboard Preview */}
