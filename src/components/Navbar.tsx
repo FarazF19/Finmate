@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-4">
           <Button variant="hero" size="sm" asChild>
             <a href="https://calendly.com/farooqifaraz7/30min" target="_blank" rel="noopener noreferrer">
-              Get Started
+              Book a Call
             </a>
           </Button>
         </div>
