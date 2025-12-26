@@ -21,13 +21,16 @@ const CTASection = () => {
             Let's build a financial platform tailored to your business. Schedule a consultation to discover how we can transform your operations.
           </p>
           
-          <Button variant="hero" size="xl" className="group" asChild>
-            <a href="https://calendly.com/farooqifaraz7/30min" target="_blank" rel="noopener noreferrer">
-              <Calendar className="mr-2 w-5 h-5" />
-              Book a Call
-              <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
-            </a>
-          </Button>
+          <a 
+            href="https://calendly.com/farooqifaraz7/30min" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gradient-to-r from-primary via-secondary to-accent text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 hover:scale-[1.02] h-14 px-10 text-lg group"
+          >
+            <Calendar className="mr-2 w-5 h-5" />
+            Book a Call
+            <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+          </a>
           
           <p className="text-sm text-muted-foreground mt-8">
             No commitment required • Free consultation • Response within 24 hours
