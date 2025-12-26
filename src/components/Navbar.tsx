@@ -51,12 +51,9 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" size="sm">
-            Log In
-          </Button>
           <Button variant="hero" size="sm" asChild>
             <a href="https://calendly.com/farooqifaraz7/30min" target="_blank" rel="noopener noreferrer">
-              Book a Demo
+              Get Started
             </a>
           </Button>
         </div>
@@ -85,12 +82,9 @@ const Navbar = () => {
               </a>
             ))}
             <div className="flex flex-col gap-3 pt-4 border-t border-border">
-              <Button variant="ghost" size="sm">
-                Log In
-              </Button>
               <Button variant="hero" size="sm" asChild>
                 <a href="https://calendly.com/farooqifaraz7/30min" target="_blank" rel="noopener noreferrer">
-                  Book a Demo
+                  Get Started
                 </a>
               </Button>
             </div>
